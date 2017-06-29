@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <title>look it's a website wow</title>
+        <link rel="stylesheet" href="styling.css"/>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
     </head>
     <body>
         <div class="main-content">
             <div class="family-list" data-bind="foreach: family">
-                <div>
+                <div class="family-member">
                     <span class="name" data-bind="text: name"></span>:
                     <span class="description" data-bind="text: description"></span>
                 </div>
